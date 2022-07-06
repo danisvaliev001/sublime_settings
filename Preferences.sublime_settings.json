@@ -1,22 +1,39 @@
 // Settings in here override those in "Default/Preferences.sublime-settings",
 // and are overridden in turn by syntax-specific settings.
 {
-	"color_scheme": "Sixteen.sublime-color-scheme",
-	"default_encoding": "UTF-8",
-	"default_line_ending": "unix",
-	"file_tab_style": "square",
-	"font_face": "Fira Code",
-	"ignored_packages":
-	[
+  "theme": "auto",
+  "dark_theme": "Default Dark.sublime-theme",
+  "light_theme": "Default.sublime-theme",
+
+  "color_scheme": "auto",
+  "dark_color_scheme": "Brackets Dark.sublime-color-scheme",
+  "light_color_scheme": "Brackets Light.sublime-color-scheme",
+
+  "highlight_line": true,
+
+  "file_tab_style": "square",
+  "enable_tab_scrolling": false,
+
+  "font_face": "Jetbrains Mono NL",
+  "font_size": 12,
+
+  "tab_size": 2,
+  "translate_tabs_to_spaces": true,
+  "draw_white_space": ["all"],
+  "trim_trailing_white_space_on_save": "all",
+
+  "default_encoding": "UTF-8",
+  "default_line_ending": "unix",
+  "show_encoding": true,
+  "show_line_endings": true,
+  "ensure_newline_at_eof_on_save": true,
+
+  "native_tabs": "disabled",
+  "open_files_in_new_window": "never",
+  "save_on_focus_lost": true,
+
+  "ignored_packages":
+  [
 		"Vintage",
-	],
-	"native_tabs": "preferred",
-	"open_files_in_new_window": "never",
-	"tab_size": 2,
-	"theme": "auto",
-	"translate_tabs_to_spaces": true,
-	"font_size": 12,
-	"dark_theme": "Adaptive.sublime-theme",
-	"light_theme": "Adaptive.sublime-theme",
-	"save_on_focus_lost": true,
+  ],
 }
