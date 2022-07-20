@@ -4,8 +4,8 @@ actually usually I use JetBrains IDE's but for some quick file opens or even for
 
 ## how to use:
 1. install next packages via Package Control:
-  - Brackets Color Scheme
-  - WordCount
+- Brackets Color Scheme
+- WordCount
 
 1. copy file content and paste it to:  
 Sublime Text ==> Preferences ==> Settings
