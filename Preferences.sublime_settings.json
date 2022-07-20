@@ -34,6 +34,6 @@
 
   "ignored_packages":
   [
-		"Vintage",
+    "Vintage",
   ],
 }
